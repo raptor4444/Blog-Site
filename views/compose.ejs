@@ -2,20 +2,28 @@
 
 <h1>COMPOSE</h1>
 
-
 <form class="text" action="/compose" method="post">
-    <div class="form-group">
-        <label>TITLE</label>
-        <input class = "form-control" type="text" name= "newitem" placeholder="type here" autocomplete="off">
-        <br>
-        <label>POST</label>
-        <textarea class = "form-control" name = "newitem2" rows = "5" cols = "30" placeholder="type here"></textarea>
-    </div>
-    
-    <button name="button" type="submit" class="btn btn-primary">PUBLISH</button>
+  <div class="form-group">
+    <label>TITLE</label>
+    <input
+      class="form-control"
+      type="text"
+      name="newitem"
+      placeholder="type here"
+      autocomplete="off"
+    />
+    <br />
+    <label>POST</label>
+    <textarea
+      class="form-control"
+      name="newitem2"
+      rows="5"
+      cols="30"
+      placeholder="type here"
+    ></textarea>
+  </div>
 
+  <button name="button" type="submit" class="btn btn-primary">PUBLISH</button>
 </form>
 
-
 <%- include('partials/footer'); -%>
-
